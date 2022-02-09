@@ -1,0 +1,203 @@
+<<<<<<<<<<<<<<<<<  42: The Mostly Harmless Simulator  >>>>>>>>>>>>>>>>> 
+************************** Simulation Control ************************** 
+FAST 		 !  Time Mode (FAST, REAL, EXTERNAL, or NOS3) 
+10000 	 0.1 	 !  Sim Duration, Step Size [sec] 
+1 		 !  File Output Interval [sec] 
+TRUE 		 !  Graphics Front End? 
+Inp_Cmd.txt 	 !  Command Script File Name 	 
+**************************  Reference Orbits  ************************** 
+75 		 !  Number of Reference Orbits 
+TRUE Orb_SAT_1.txt 	 !  Input file name for Orb 0 
+TRUE Orb_SAT_2.txt 	 !  Input file name for Orb 1 
+TRUE Orb_SAT_3.txt 	 !  Input file name for Orb 2 
+TRUE Orb_SAT_4.txt 	 !  Input file name for Orb 3 
+TRUE Orb_SAT_5.txt 	 !  Input file name for Orb 4 
+TRUE Orb_SAT_6.txt 	 !  Input file name for Orb 5 
+TRUE Orb_SAT_7.txt 	 !  Input file name for Orb 6 
+TRUE Orb_SAT_8.txt 	 !  Input file name for Orb 7 
+TRUE Orb_SAT_9.txt 	 !  Input file name for Orb 8 
+TRUE Orb_SAT_10.txt 	 !  Input file name for Orb 9 
+TRUE Orb_SAT_11.txt 	 !  Input file name for Orb 10 
+TRUE Orb_SAT_12.txt 	 !  Input file name for Orb 11 
+TRUE Orb_SAT_13.txt 	 !  Input file name for Orb 12 
+TRUE Orb_SAT_14.txt 	 !  Input file name for Orb 13 
+TRUE Orb_SAT_15.txt 	 !  Input file name for Orb 14 
+TRUE Orb_SAT_16.txt 	 !  Input file name for Orb 15 
+TRUE Orb_SAT_17.txt 	 !  Input file name for Orb 16 
+TRUE Orb_SAT_18.txt 	 !  Input file name for Orb 17 
+TRUE Orb_SAT_19.txt 	 !  Input file name for Orb 18 
+TRUE Orb_SAT_20.txt 	 !  Input file name for Orb 19 
+TRUE Orb_SAT_21.txt 	 !  Input file name for Orb 20 
+TRUE Orb_SAT_22.txt 	 !  Input file name for Orb 21 
+TRUE Orb_SAT_23.txt 	 !  Input file name for Orb 22 
+TRUE Orb_SAT_24.txt 	 !  Input file name for Orb 23 
+TRUE Orb_SAT_25.txt 	 !  Input file name for Orb 24 
+TRUE Orb_SAT_26.txt 	 !  Input file name for Orb 25 
+TRUE Orb_SAT_27.txt 	 !  Input file name for Orb 26 
+TRUE Orb_SAT_28.txt 	 !  Input file name for Orb 27 
+TRUE Orb_SAT_29.txt 	 !  Input file name for Orb 28 
+TRUE Orb_SAT_30.txt 	 !  Input file name for Orb 29 
+TRUE Orb_SAT_31.txt 	 !  Input file name for Orb 30 
+TRUE Orb_SAT_32.txt 	 !  Input file name for Orb 31 
+TRUE Orb_SAT_33.txt 	 !  Input file name for Orb 32 
+TRUE Orb_SAT_34.txt 	 !  Input file name for Orb 33 
+TRUE Orb_SAT_35.txt 	 !  Input file name for Orb 34 
+TRUE Orb_SAT_36.txt 	 !  Input file name for Orb 35 
+TRUE Orb_SAT_37.txt 	 !  Input file name for Orb 36 
+TRUE Orb_SAT_38.txt 	 !  Input file name for Orb 37 
+TRUE Orb_SAT_39.txt 	 !  Input file name for Orb 38 
+TRUE Orb_SAT_40.txt 	 !  Input file name for Orb 39 
+TRUE Orb_SAT_41.txt 	 !  Input file name for Orb 40 
+TRUE Orb_SAT_42.txt 	 !  Input file name for Orb 41 
+TRUE Orb_SAT_43.txt 	 !  Input file name for Orb 42 
+TRUE Orb_SAT_44.txt 	 !  Input file name for Orb 43 
+TRUE Orb_SAT_45.txt 	 !  Input file name for Orb 44 
+TRUE Orb_SAT_46.txt 	 !  Input file name for Orb 45 
+TRUE Orb_SAT_47.txt 	 !  Input file name for Orb 46 
+TRUE Orb_SAT_48.txt 	 !  Input file name for Orb 47 
+TRUE Orb_SAT_49.txt 	 !  Input file name for Orb 48 
+TRUE Orb_SAT_50.txt 	 !  Input file name for Orb 49 
+TRUE Orb_SAT_51.txt 	 !  Input file name for Orb 50 
+TRUE Orb_SAT_52.txt 	 !  Input file name for Orb 51 
+TRUE Orb_SAT_53.txt 	 !  Input file name for Orb 52 
+TRUE Orb_SAT_54.txt 	 !  Input file name for Orb 53 
+TRUE Orb_SAT_55.txt 	 !  Input file name for Orb 54 
+TRUE Orb_SAT_56.txt 	 !  Input file name for Orb 55 
+TRUE Orb_SAT_57.txt 	 !  Input file name for Orb 56 
+TRUE Orb_SAT_58.txt 	 !  Input file name for Orb 57 
+TRUE Orb_SAT_59.txt 	 !  Input file name for Orb 58 
+TRUE Orb_SAT_60.txt 	 !  Input file name for Orb 59 
+TRUE Orb_SAT_61.txt 	 !  Input file name for Orb 60 
+TRUE Orb_SAT_62.txt 	 !  Input file name for Orb 61 
+TRUE Orb_SAT_63.txt 	 !  Input file name for Orb 62 
+TRUE Orb_SAT_64.txt 	 !  Input file name for Orb 63 
+TRUE Orb_SAT_65.txt 	 !  Input file name for Orb 64 
+TRUE Orb_SAT_66.txt 	 !  Input file name for Orb 65 
+TRUE Orb_SAT_67.txt 	 !  Input file name for Orb 66 
+TRUE Orb_SAT_68.txt 	 !  Input file name for Orb 67 
+TRUE Orb_SAT_69.txt 	 !  Input file name for Orb 68 
+TRUE Orb_SAT_70.txt 	 !  Input file name for Orb 69 
+TRUE Orb_SAT_71.txt 	 !  Input file name for Orb 70 
+TRUE Orb_SAT_72.txt 	 !  Input file name for Orb 71 
+TRUE Orb_SAT_73.txt 	 !  Input file name for Orb 72 
+TRUE Orb_SAT_74.txt 	 !  Input file name for Orb 73 
+TRUE Orb_SAT_75.txt 	 !  Input file name for Orb 74 
+*****************************  Spacecraft  ***************************** 
+75 		 !  Number of Spacecraft 
+TRUE 0 	 IRIDIUM106.txt 	 !  Existence, RefOrb, Input file for SC 0 
+TRUE 1 	 IRIDIUM103.txt 	 !  Existence, RefOrb, Input file for SC 1 
+TRUE 2 	 IRIDIUM109.txt 	 !  Existence, RefOrb, Input file for SC 2 
+TRUE 3 	 IRIDIUM102.txt 	 !  Existence, RefOrb, Input file for SC 3 
+TRUE 4 	 IRIDIUM105.txt 	 !  Existence, RefOrb, Input file for SC 4 
+TRUE 5 	 IRIDIUM104.txt 	 !  Existence, RefOrb, Input file for SC 5 
+TRUE 6 	 IRIDIUM114.txt 	 !  Existence, RefOrb, Input file for SC 6 
+TRUE 7 	 IRIDIUM108.txt 	 !  Existence, RefOrb, Input file for SC 7 
+TRUE 8 	 IRIDIUM112.txt 	 !  Existence, RefOrb, Input file for SC 8 
+TRUE 9 	 IRIDIUM111.txt 	 !  Existence, RefOrb, Input file for SC 9 
+TRUE 10 	 IRIDIUM113.txt 	 !  Existence, RefOrb, Input file for SC 10 
+TRUE 11 	 IRIDIUM123.txt 	 !  Existence, RefOrb, Input file for SC 11 
+TRUE 12 	 IRIDIUM120.txt 	 !  Existence, RefOrb, Input file for SC 12 
+TRUE 13 	 IRIDIUM115.txt 	 !  Existence, RefOrb, Input file for SC 13 
+TRUE 14 	 IRIDIUM118.txt 	 !  Existence, RefOrb, Input file for SC 14 
+TRUE 15 	 IRIDIUM117.txt 	 !  Existence, RefOrb, Input file for SC 15 
+TRUE 16 	 IRIDIUM126.txt 	 !  Existence, RefOrb, Input file for SC 16 
+TRUE 17 	 IRIDIUM124.txt 	 !  Existence, RefOrb, Input file for SC 17 
+TRUE 18 	 IRIDIUM128.txt 	 !  Existence, RefOrb, Input file for SC 18 
+TRUE 19 	 IRIDIUM121.txt 	 !  Existence, RefOrb, Input file for SC 19 
+TRUE 20 	 IRIDIUM133.txt 	 !  Existence, RefOrb, Input file for SC 20 
+TRUE 21 	 IRIDIUM100.txt 	 !  Existence, RefOrb, Input file for SC 21 
+TRUE 22 	 IRIDIUM122.txt 	 !  Existence, RefOrb, Input file for SC 22 
+TRUE 23 	 IRIDIUM129.txt 	 !  Existence, RefOrb, Input file for SC 23 
+TRUE 24 	 IRIDIUM119.txt 	 !  Existence, RefOrb, Input file for SC 24 
+TRUE 25 	 IRIDIUM107.txt 	 !  Existence, RefOrb, Input file for SC 25 
+TRUE 26 	 IRIDIUM132.txt 	 !  Existence, RefOrb, Input file for SC 26 
+TRUE 27 	 IRIDIUM136.txt 	 !  Existence, RefOrb, Input file for SC 27 
+TRUE 28 	 IRIDIUM139.txt 	 !  Existence, RefOrb, Input file for SC 28 
+TRUE 29 	 IRIDIUM125.txt 	 !  Existence, RefOrb, Input file for SC 29 
+TRUE 30 	 IRIDIUM135.txt 	 !  Existence, RefOrb, Input file for SC 30 
+TRUE 31 	 IRIDIUM138.txt 	 !  Existence, RefOrb, Input file for SC 31 
+TRUE 32 	 IRIDIUM116.txt 	 !  Existence, RefOrb, Input file for SC 32 
+TRUE 33 	 IRIDIUM130.txt 	 !  Existence, RefOrb, Input file for SC 33 
+TRUE 34 	 IRIDIUM151.txt 	 !  Existence, RefOrb, Input file for SC 34 
+TRUE 35 	 IRIDIUM134.txt 	 !  Existence, RefOrb, Input file for SC 35 
+TRUE 36 	 IRIDIUM137.txt 	 !  Existence, RefOrb, Input file for SC 36 
+TRUE 37 	 IRIDIUM141.txt 	 !  Existence, RefOrb, Input file for SC 37 
+TRUE 38 	 IRIDIUM153.txt 	 !  Existence, RefOrb, Input file for SC 38 
+TRUE 39 	 IRIDIUM131.txt 	 !  Existence, RefOrb, Input file for SC 39 
+TRUE 40 	 IRIDIUM144.txt 	 !  Existence, RefOrb, Input file for SC 40 
+TRUE 41 	 IRIDIUM149.txt 	 !  Existence, RefOrb, Input file for SC 41 
+TRUE 42 	 IRIDIUM157.txt 	 !  Existence, RefOrb, Input file for SC 42 
+TRUE 43 	 IRIDIUM140.txt 	 !  Existence, RefOrb, Input file for SC 43 
+TRUE 44 	 IRIDIUM145.txt 	 !  Existence, RefOrb, Input file for SC 44 
+TRUE 45 	 IRIDIUM146.txt 	 !  Existence, RefOrb, Input file for SC 45 
+TRUE 46 	 IRIDIUM148.txt 	 !  Existence, RefOrb, Input file for SC 46 
+TRUE 47 	 IRIDIUM142.txt 	 !  Existence, RefOrb, Input file for SC 47 
+TRUE 48 	 IRIDIUM150.txt 	 !  Existence, RefOrb, Input file for SC 48 
+TRUE 49 	 IRIDIUM143.txt 	 !  Existence, RefOrb, Input file for SC 49 
+TRUE 50 	 IRIDIUM161.txt 	 !  Existence, RefOrb, Input file for SC 50 
+TRUE 51 	 IRIDIUM152.txt 	 !  Existence, RefOrb, Input file for SC 51 
+TRUE 52 	 IRIDIUM147.txt 	 !  Existence, RefOrb, Input file for SC 52 
+TRUE 53 	 IRIDIUM110.txt 	 !  Existence, RefOrb, Input file for SC 53 
+TRUE 54 	 IRIDIUM162.txt 	 !  Existence, RefOrb, Input file for SC 54 
+TRUE 55 	 IRIDIUM160.txt 	 !  Existence, RefOrb, Input file for SC 55 
+TRUE 56 	 IRIDIUM166.txt 	 !  Existence, RefOrb, Input file for SC 56 
+TRUE 57 	 IRIDIUM158.txt 	 !  Existence, RefOrb, Input file for SC 57 
+TRUE 58 	 IRIDIUM165.txt 	 !  Existence, RefOrb, Input file for SC 58 
+TRUE 59 	 IRIDIUM155.txt 	 !  Existence, RefOrb, Input file for SC 59 
+TRUE 60 	 IRIDIUM154.txt 	 !  Existence, RefOrb, Input file for SC 60 
+TRUE 61 	 IRIDIUM163.txt 	 !  Existence, RefOrb, Input file for SC 61 
+TRUE 62 	 IRIDIUM156.txt 	 !  Existence, RefOrb, Input file for SC 62 
+TRUE 63 	 IRIDIUM164.txt 	 !  Existence, RefOrb, Input file for SC 63 
+TRUE 64 	 IRIDIUM159.txt 	 !  Existence, RefOrb, Input file for SC 64 
+TRUE 65 	 IRIDIUM180.txt 	 !  Existence, RefOrb, Input file for SC 65 
+TRUE 66 	 IRIDIUM176.txt 	 !  Existence, RefOrb, Input file for SC 66 
+TRUE 67 	 IRIDIUM168.txt 	 !  Existence, RefOrb, Input file for SC 67 
+TRUE 68 	 IRIDIUM173.txt 	 !  Existence, RefOrb, Input file for SC 68 
+TRUE 69 	 IRIDIUM169.txt 	 !  Existence, RefOrb, Input file for SC 69 
+TRUE 70 	 IRIDIUM172.txt 	 !  Existence, RefOrb, Input file for SC 70 
+TRUE 71 	 IRIDIUM175.txt 	 !  Existence, RefOrb, Input file for SC 71 
+TRUE 72 	 IRIDIUM171.txt 	 !  Existence, RefOrb, Input file for SC 72 
+TRUE 73 	 IRIDIUM170.txt 	 !  Existence, RefOrb, Input file for SC 73 
+TRUE 74 	 IRIDIUM167.txt 	 !  Existence, RefOrb, Input file for SC 74 
+***************************** Environment  ***************************** 
+02 05 2022 	 !  Date (UTC) (Month, Day, Year) 	 
+12 00 00.00 	 !  Time (UTC) (Hr,Min,Sec) 	 
+37 		 !  Leap Seconds (sec) 
+USER 		 !  F10.7, Ap (USER, NOMINAL or TWOSIGMA) 
+230.0 		 !  USER-provided F10.7 
+100.0 		 !  USER-provided Ap  
+IGRF 		 !  Magfield (NONE,DIPOLE,IGRF) 
+8 	 8 	 !  IGRF Degree and Order (<=10) 
+8 	 8 	 !  Earth Gravity Model N and M (<=18) 
+2 	 0 	 !  Mars Gravity Model N and M (<=18) 
+2 	 0 	 !  Luna Gravity Model N and M (<=18) 
+FALSE 	 FALSE 	 !  Aerodynamic Forces & Torques (Shadows) 
+FALSE 		 !  Gravity Gradient Torques 
+FALSE 	 FALSE 	 !  Solar Pressure Forces & Torques (Shadows) 
+FALSE 		 !  Gravity Perturbation Forces 
+FALSE 		 !  Passive Joint Forces & Torques 
+FALSE 		 !  Thruster Plume Forces & Torques 
+FALSE 		 !  RWA Imbalance Forces and Torques 
+FALSE 		 !  Contact Forces and Torques 
+FALSE 		 !  CFD Slosh Forces and Torques 
+FALSE 		 !  Albedo Effect on CSS Measurements 
+FALSE 		 !  Output Environmental Torques to Files 
+********************* Celestial Bodies of Interest ********************* 
+DE430 		 !  Ephem Option (MEAN or DE430) 
+TRUE 		 !  Mercury 
+TRUE 		 !  Venus 
+TRUE 		 !  Earth and Luna 
+TRUE 		 !  Mars and its moons 
+TRUE 		 !  Jupiter and its moons 
+TRUE 		 !  Saturn and its moons 
+TRUE 		 !  Uranus and its moons 
+TRUE 		 !  Neptune and its moons 
+TRUE 		 !  Pluto and its moons 
+TRUE 		 !  Asteroids and Comets 
+***************** Lagrange Point Systems of Interest ****************** 
+FALSE 		 !  Earth-Moon 
+FALSE 		 !  Sun-Earth 
+FALSE 		 !  Sun-Jupiter 
+************************* Ground Stations *************************** 
+1 	 	 	 	 ! Number of Ground Stations 
+TRUE EARTH -77.0 37.0 "GSFC" 	 ! Exists, World, Lng, Lat, Label 
